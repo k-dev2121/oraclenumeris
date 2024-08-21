@@ -1177,40 +1177,39 @@
             data-aos-duration="1000"
           >
             <div class="form-wrapper">
-              <form
-                wire:id="yUsAlfY7TY8cmaEolCaN"
-                wire:initial-data='{"fingerprint":{"id":"yUsAlfY7TY8cmaEolCaN","name":"contact-form","locale":"en","path":"\/","method":"GET","v":"acj"},"effects":{"listeners":[]},"serverMemo":{"children":[],"errors":[],"htmlHash":"b469bdb8","data":{"name":null,"email":null,"body":null,"success":null},"dataMeta":[],"checksum":"595dd87ae95952c863dd5e23a6cbf8798a65890fd37f97f00b351a62416ac1db"}}'
-                wire:submit.prevent="submit"
-              >
+              <form id="email-form">
                 <div class="form-floating mb-3">
                   <input
                     type="text"
-                    wire:model="name"
+                    name="name"
                     class="form-control oracle-input"
                     id="nameInput"
                     placeholder="%nbsp;"
+                    required
                   />
                   <label for="nameInput">Nombre*</label>
                 </div>
 
                 <div class="form-floating mb-3">
                   <input
-                    wire:model="email"
+                    name="email"
                     type="email"
                     class="form-control oracle-input"
                     id="emailInput"
                     placeholder="%nbsp;"
+                    required
                   />
                   <label for="emailInput">E-mail*</label>
                 </div>
 
                 <div class="form-floating">
                   <textarea
-                    wire:model="body"
+                    name="body"
                     class="form-control oracle-input"
                     placeholder="%nbsp;"
                     id="floatingTextarea2"
                     style="height: 200px"
+                    required
                   ></textarea>
                   <label for="floatingTextarea2">Comentarios*</label>
                 </div>
@@ -1219,6 +1218,40 @@
                   Enviar mensaje
                 </button>
               </form>
+              <script>
+                document
+                  .getElementById("email-form")
+                  .addEventListener("submit", (event) => {
+                    event.preventDefault();
+
+                    const name = document.getElementById("nameInput").value;
+                    const email = document.getElementById("emailInput").value;
+                    const message =
+                      document.getElementById("floatingTextarea2").value;
+
+                    fetch(
+                      "https://education-server-5926.onrender.com/api/send-email",
+                      {
+                        method: "POST",
+                        headers: {
+                          "Content-Type": "application/x-www-form-urlencoded",
+                        },
+                        body: new URLSearchParams({ name, email, message }),
+                      }
+                    )
+                      .then((response) => {
+                        if (response.ok) {
+                          alert("Email sent successfully");
+                        } else {
+                          alert("Error sending email");
+                        }
+                      })
+                      .catch((error) => {
+                        console.error("Error:", error);
+                        alert("An error occurred while sending the email");
+                      });
+                  });
+              </script>
 
               <!-- Livewire Component wire-end:yUsAlfY7TY8cmaEolCaN -->
             </div>
