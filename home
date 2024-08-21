@@ -151,21 +151,21 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto me-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/home#producto">Producto</a>
+                <a class="nav-link" href="#producto">Producto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/home#planes">Planes</a>
+                <a class="nav-link" href="#planes">Planes</a>
               </li>
               <li class="nav-item brand-item">
-                <a class="nav-link" href="/home"
+                <a class="nav-link" href="/"
                   ><img src="/img/oracle_numeris_logo.png" alt="Oracle"
                 /></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/home#faqs">FAQs</a>
+                <a class="nav-link" href="#faqs">FAQs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/home#contacto">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -1322,10 +1322,10 @@
               </div>
             </div>
             <div class="col-lg-2">
-              <a href="/home#indicadores" class="link">Indicadores</a>
-              <a href="/home#planes" class="link">Planes</a>
-              <a href="/home#testimonios" class="link">Testimonios</a>
-              <a href="/home#faqs" class="link">Preguntas Frecuentes</a>
+              <a href="#indicadores" class="link">Indicadores</a>
+              <a href="#planes" class="link">Planes</a>
+              <a href="#testimonios" class="link">Testimonios</a>
+              <a href="#faqs" class="link">Preguntas Frecuentes</a>
               <a href="https://tradingview.com/" target="_blank" class="link"
                 >Gráficos Mercados</a
               >

@@ -134,7 +134,7 @@
     <header class="simple">
       <nav class="navbar navbar-dark">
         <div class="container text-center justify-content-center">
-          <a href="/home"
+          <a href="/"
             ><span class="arrow-back"
               ><i class="fa-solid fa-arrow-left"></i
             ></span>
@@ -375,9 +375,9 @@
         <div class="row row-wpp">
           <div class="col-lg-4 offset-lg-2">
             <p class="desc">
-              Si te interesa la <a href="/home">versión completa</a> del
-              indicador, contactate con nuestro equipo para recibir
-              asesoramiento personalizado
+              Si te interesa la <a href="/">versión completa</a> del indicador,
+              contactate con nuestro equipo para recibir asesoramiento
+              personalizado
             </p>
           </div>
           <div class="col-lg-4 d-flex align-items-center">
@@ -492,9 +492,6 @@
                     del ORACLE NUMERIS que NO están incluidas en la versión
                     LITE. Podes obtener la versión completa del indicador
                     adquiriendo alguna de sus suscripciones en
-                    <a class="text-white" href="/home"
-                      >https://www.oraclenumeris.com/</a
-                    >
                   </div>
                 </div>
               </div>
@@ -589,10 +586,10 @@
               </div>
             </div>
             <div class="col-lg-2">
-              <a href="/home#indicadores" class="link">Indicadores</a>
-              <a href="/home#planes" class="link">Planes</a>
-              <a href="/home#testimonios" class="link">Testimonios</a>
-              <a href="/home#faqs" class="link">Preguntas Frecuentes</a>
+              <a href="#indicadores" class="link">Indicadores</a>
+              <a href="#planes" class="link">Planes</a>
+              <a href="#testimonios" class="link">Testimonios</a>
+              <a href="#faqs" class="link">Preguntas Frecuentes</a>
               <a href="https://tradingview.com/" target="_blank" class="link"
                 >Gráficos Mercados</a
               >
