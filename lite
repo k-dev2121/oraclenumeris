@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Lightning Ventures" />
+    <link rel="canonical" href="" />
+    <meta
+      property="og:title"
+      content="Oracle Numeris - Todo lo que necesitas en un solo indicador"
+    />
+    <meta
+      property="og:description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta property="og:image" content="/img/ON_Logo_black.png" />
+    <meta property="og:url" content="oraclenumeris.com" />
+    <meta property="og:site_name" content="Oracle Numeris" />
+    <meta property="og:type" content="website" />
+    <meta
+      itemprop="description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta
+      name="twitter:title"
+      content="Oracle Numeris - Todo lo que necesitas en un solo indicador"
+    />
+    <meta
+      name="twitter:description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta name="twitter:image" content="/img/ON_Logo_black.png" />
+    <meta name="twitter:domain" content="" />
+    <meta
+      name="csrf-token"
+      content="yZz8pO051eLqcPa1yG6I8Z8oDvX0ZWMw1RsSUsAU"
+    />
+    <title>Oracle Numeris - Todo lo que necesitas en un solo indicador</title>
+    <link
+      rel="stylesheet"
+      href="/vendor/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      href="/vendor/fontawesome/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/frontend/general.css?id=c136d0c98617c1f41e5b22aa1346a512"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <script src="/vendor/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <style>
+      [wire\:loading],
+      [wire\:loading\.delay],
+      [wire\:loading\.inline-block],
+      [wire\:loading\.inline],
+      [wire\:loading\.block],
+      [wire\:loading\.flex],
+      [wire\:loading\.table],
+      [wire\:loading\.grid],
+      [wire\:loading\.inline-flex] {
+        display: none;
+      }
+      [wire\:loading\.delay\.shortest],
+      [wire\:loading\.delay\.shorter],
+      [wire\:loading\.delay\.short],
+      [wire\:loading\.delay\.long],
+      [wire\:loading\.delay\.longer],
+      [wire\:loading\.delay\.longest] {
+        display: none;
+      }
+      [wire\:offline] {
+        display: none;
+      }
+      [wire\:dirty]:not(textarea):not(input):not(select) {
+        display: none;
+      }
+      input:-webkit-autofill,
+      select:-webkit-autofill,
+      textarea:-webkit-autofill {
+        animation-duration: 50000s;
+        animation-name: livewireautofill;
+      }
+      @keyframes livewireautofill {
+        from {
+        }
+      }
+    </style>
+
+    <style>
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-Bold.ttf");
+        font-weight: 700;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-SemiBold.ttf");
+        font-weight: 600;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-Medium.ttf");
+        font-weight: 500;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-Regular.ttf");
+        font-weight: 400;
+        font-display: swap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="simple">
+      <nav class="navbar navbar-dark">
+        <div class="container text-center justify-content-center">
+          <a href="/home"
+            ><span class="arrow-back"
+              ><i class="fa-solid fa-arrow-left"></i
+            ></span>
+            Volver al sitio</a
+          >
+        </div>
+      </nav>
+    </header>
+    <link rel="stylesheet" href="/vendor/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="/css/frontend/lite.css?id=1cfd3c9c6069b5717364de8b4a9794e0"
+    />
+    <link rel="stylesheet" href="/vendor/aos/aos.css" />
+
+    <section class="zoom" id="indicadores">
+      <img src="/img/red-shadow.svg" alt="" class="bg-shadow img-fluid" />
+      <div class="container-fluid">
+        <h1
+          class="main-title"
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+        >
+          ORACLE NUMERIS
+          <span>LITE</span>
+        </h1>
+        <p
+          class="subtitle"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          Todo lo que necesitas en un indicador gratuito
+        </p>
+        <div
+          class="swiper zoomSwiper"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/ADX.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">SEÑALES DE ADX</h3>
+              <p class="desc">
+                Nos indica que la tendencia del activo es fuerte. Cada vez que
+                aparezca un punto en el gráfico significa que aumenta la
+                posibilidad de que se genere una tendencia genuina.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Barras_coloreadas.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">VELAS DE TENDENCIA</h3>
+              <p class="desc">
+                Nos indica los posibles cambios de tendencia a través de
+                diferentes colores sobre las velas japonesas.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Bollinger.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">BANDAS DE BOLLINGER</h3>
+              <p class="desc">
+                Las bandas miden la volatilidad de un activo e identifica
+                posibles niveles de sobrecompra o sobreventa. Las bandas
+                consisten en un área formada por la banda alta y la banda baja
+                de Bollinger.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/medias_moviles.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">MEDIAS MÓVILES</h3>
+              <p class="desc">
+                Nos indica el precio promedio de un activo en un período de
+                tiempo determinado. Ayuda a identificar la tendencia general sin
+                los movimientos bruscos del mercado. Dependiendo del valor
+                asignado detectaremos la tendencia tanto de corto, mediano y
+                largo plazo.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/pivotes.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">PIVOTES</h3>
+              <p class="desc">
+                Los puntos pivotes nos marcan zonas de soporte y resistencia que
+                se calculan a partir de los precios máximos y mínimos de
+                períodos anteriores.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Soportes_y_resistencias.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">MÓDULOS DE SOPORTE Y RESISTENCIA</h3>
+              <p class="desc">
+                Soportes y resistencias #1 nos marcan niveles del precio
+                importantes de la temporalidad actual, soportes y resistencias
+                #2 nos marcan niveles del precio importantes de la temporalidad
+                anterior.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/volume.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">PERFIL DE VOLUMEN FIJO</h3>
+              <p class="desc">
+                Nos indica la cantidad de operaciones que se negocian en
+                diferentes precios. Ayuda a identificar zonas con gran interés
+                del activo, lo que puede identificar áreas de soporte y
+                resistencia.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="contact"
+      style="background-image: url(/img/grid-1.png)"
+      id="contacto"
+    >
+      <img
+        src="/img/green-shadow-left.svg"
+        alt=""
+        class="bg-shadow-2 img-fluid"
+      />
+      <div class="circle-overlay"></div>
+      <h2
+        class="title"
+        data-aos="fade-up"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+      >
+        Suscribite completando el siguiente formulario
+      </h2>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 offset-lg-3"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div class="form-wrapper">
+              <form
+                wire:id="0yMVoAd2C3mXHLzw3lam"
+                wire:initial-data='{"fingerprint":{"id":"0yMVoAd2C3mXHLzw3lam","name":"contact-form-lite","locale":"en","path":"lite","method":"GET","v":"acj"},"effects":{"listeners":[]},"serverMemo":{"children":[],"errors":[],"htmlHash":"0a2975fc","data":{"name":null,"email":null,"phone":null,"user":null,"success":null},"dataMeta":[],"checksum":"5e35f8fbb8dc9f4728cb8686f99349261a33caede368b988254f72bbc23042a5"}}'
+                wire:submit.prevent="submit"
+              >
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    wire:model="name"
+                    class="form-control oracle-input"
+                    id="nameInput"
+                    placeholder="%nbsp;"
+                  />
+                  <label for="nameInput">Nombre*</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    wire:model="email"
+                    type="email"
+                    class="form-control oracle-input"
+                    id="emailInput"
+                    placeholder="%nbsp;"
+                  />
+                  <label for="emailInput">E-mail*</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    wire:model="phone"
+                    type="number"
+                    class="form-control oracle-input"
+                    id="phoneInput"
+                    placeholder="%nbsp;"
+                  />
+                  <label for="emailInput">Celular*</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    wire:model="user"
+                    type="text"
+                    class="form-control oracle-input"
+                    id="userInput"
+                    placeholder="%nbsp;"
+                  />
+                  <label for="userInput">Usuario de TradingView*</label>
+                </div>
+
+                <div class="text-center">
+                  <button type="submit" class="btn btn-oracle mt-4">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+
+              <!-- Livewire Component wire-end:0yMVoAd2C3mXHLzw3lam -->
+            </div>
+          </div>
+        </div>
+        <div class="row row-wpp">
+          <div class="col-lg-4 offset-lg-2">
+            <p class="desc">
+              Si te interesa la <a href="/home">versión completa</a> del
+              indicador, contactate con nuestro equipo para recibir
+              asesoramiento personalizado
+            </p>
+          </div>
+          <div class="col-lg-4 d-flex align-items-center">
+            <a
+              href="https://t.me/oraclenumeriss"
+              target="_blank"
+              class="btn btn-wpp"
+              >Contactanos por Telegram <i class="fa-brands fa-telegram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faqs" id="faqs">
+      <img src="/img/elipses2.svg" alt="" class="elipse img-fluid" />
+      <div class="container">
+        <div
+          class="card-faqs"
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+        >
+          <h2 class="title">Preguntas frecuentes</h2>
+          <div class="accordion-wrapper">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    ¿Qué es Oracle Numeris LITE?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Oracle Numeris LITE es la versión GRATUITA del renombrado
+                    indicador Oracle Numeris. Este indicador ha sido diseñado y
+                    programado sobre la misma sólida base que Oracle Numeris,
+                    aunque no incluye todas las herramientas disponibles en la
+                    versión de pago. A pesar de esto, Oracle Numeris LITE te
+                    proporciona la oportunidad de acceder a múltiples
+                    herramientas dentro de un solo indicador, utilizando
+                    ÚNICAMENTE 1 de los 2 espacios disponibles en la versión
+                    gratuita de TradingView. Oracle Numeris LITE representa todo
+                    lo que necesitas en un indicador gratuito.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    ¿Cómo lo configuro y lo comienzo a usar?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    La instalación es súper sencilla, con el nombre de usuario
+                    de TradingView nosotros habilitamos el indicador a tu
+                    cuenta. Una vez en la plataforma de TradingView, se
+                    selecciona desde el apartado de indicadores/scripts por
+                    invitación. Además brindamos una guía básica para utilizar
+                    cada funcionalidad del indicador. No es necesario que tengas
+                    una cuenta paga de TradingView.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    ¿Porque NO puedo puedo ver las señales de COMPRA y VENTA tan
+                    características del Oracle Numeris?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Las señales de COMPRA y VENTA son una de las herramientas
+                    del ORACLE NUMERIS que NO están incluidas en la versión
+                    LITE. Podes obtener la versión completa del indicador
+                    adquiriendo alguna de sus suscripciones en
+                    <a class="text-white" href="/home"
+                      >https://www.oraclenumeris.com/</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="/vendor/aos/aos.js"></script>
+    <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/vendor/jquery.countup.min.js"></script>
+    <script src="/vendor/jquery.waypoints.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        autoHeight: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+
+        breakpoints: {
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".zoomSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoHeight: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        breakpoints: {
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 1,
+          },
+        },
+      });
+
+      $(".counter").countUp();
+      $(".counter2").countUp();
+      $(".counter3").countUp();
+    </script>
+
+    <script>
+      AOS.init({
+        once: true,
+        mirror: true,
+        easing: "ease-out-back",
+      });
+    </script>
+
+    <footer>
+      <div class="container">
+        <div class="upper">
+          <div class="row">
+            <div class="col-lg-10">
+              <h5 class="brand">Oracle Numeris</h5>
+              <p class="desc">
+                Maximiza tu análisis técnico y estrategias de trading con las
+                señales de compra y venta y una combinación de más de 12
+                indicadores para usar en Trading View.
+              </p>
+              <div class="links">
+                <a
+                  href="https://www.instagram.com/oracle.numeris/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://t.me/oraclenumeriss" target="_blank"
+                  ><i class="fa-brands fa-telegram"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <a href="/home#indicadores" class="link">Indicadores</a>
+              <a href="/home#planes" class="link">Planes</a>
+              <a href="/home#testimonios" class="link">Testimonios</a>
+              <a href="/home#faqs" class="link">Preguntas Frecuentes</a>
+              <a href="https://tradingview.com/" target="_blank" class="link"
+                >Gráficos Mercados</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="rights">
+            Todos los derechos reservados @ <b>Oracle Numeris</b>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTopBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <a target="_blank" href="https://t.me/oraclenumeriss" class="wpp-contact">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
+        alt="telegram logo"
+        class="img-fluid"
+      />
+    </a>
+    <script src="/js/frontend/general.js?id=f2831a884bec8aaeeea70bba82e30cfc"></script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="/vendor/popper.min.js" crossorigin="anonymous"></script>
+    <script src="/vendor/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script
+      src="/vendor/jquery.easing.compatibility.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="/livewire/livewire.js?id=90730a3b0e7144480175"
+      data-turbo-eval="false"
+      data-turbolinks-eval="false"
+    ></script>
+    <script data-turbo-eval="false" data-turbolinks-eval="false">
+      window.livewire = new Livewire();
+      window.Livewire = window.livewire;
+      window.livewire_app_url = "";
+      window.livewire_token = "yZz8pO051eLqcPa1yG6I8Z8oDvX0ZWMw1RsSUsAU";
+      window.deferLoadingAlpine = function (callback) {
+        window.addEventListener("livewire:load", function () {
+          callback();
+        });
+      };
+      let started = false;
+      window.addEventListener("alpine:initializing", function () {
+        if (!started) {
+          window.livewire.start();
+          started = true;
+        }
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        if (!started) {
+          window.livewire.start();
+          started = true;
+        }
+      });
+    </script>
+  </body>
+</html>

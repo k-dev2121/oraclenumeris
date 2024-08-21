@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Lightning Ventures" />
+    <link rel="canonical" href="" />
+    <meta
+      property="og:title"
+      content="Oracle Numeris - Todo lo que necesitas en un solo indicador"
+    />
+    <meta
+      property="og:description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta property="og:image" content="/img/ON_Logo_black.png" />
+    <meta property="og:url" content="oraclenumeris.com" />
+    <meta property="og:site_name" content="Oracle Numeris" />
+    <meta property="og:type" content="website" />
+    <meta
+      itemprop="description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta
+      name="twitter:title"
+      content="Oracle Numeris - Todo lo que necesitas en un solo indicador"
+    />
+    <meta
+      name="twitter:description"
+      content="Maximiza tu análisis técnico y estrategias de trading con las señales de compra venta y una combinación de más de 12 indicadores para usar en Trading View."
+    />
+    <meta name="twitter:image" content="/img/ON_Logo_black.png" />
+    <meta name="twitter:domain" content="" />
+    <meta
+      name="csrf-token"
+      content="yZz8pO051eLqcPa1yG6I8Z8oDvX0ZWMw1RsSUsAU"
+    />
+    <title>Oracle Numeris - Todo lo que necesitas en un solo indicador</title>
+    <link
+      rel="stylesheet"
+      href="/vendor/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      href="/vendor/fontawesome/css/all.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/frontend/general.css?id=c136d0c98617c1f41e5b22aa1346a512"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <script src="/vendor/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <style>
+      [wire\:loading],
+      [wire\:loading\.delay],
+      [wire\:loading\.inline-block],
+      [wire\:loading\.inline],
+      [wire\:loading\.block],
+      [wire\:loading\.flex],
+      [wire\:loading\.table],
+      [wire\:loading\.grid],
+      [wire\:loading\.inline-flex] {
+        display: none;
+      }
+      [wire\:loading\.delay\.shortest],
+      [wire\:loading\.delay\.shorter],
+      [wire\:loading\.delay\.short],
+      [wire\:loading\.delay\.long],
+      [wire\:loading\.delay\.longer],
+      [wire\:loading\.delay\.longest] {
+        display: none;
+      }
+      [wire\:offline] {
+        display: none;
+      }
+      [wire\:dirty]:not(textarea):not(input):not(select) {
+        display: none;
+      }
+      input:-webkit-autofill,
+      select:-webkit-autofill,
+      textarea:-webkit-autofill {
+        animation-duration: 50000s;
+        animation-name: livewireautofill;
+      }
+      @keyframes livewireautofill {
+        from {
+        }
+      }
+    </style>
+
+    <style>
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-Bold.ttf");
+        font-weight: 700;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-SemiBold.ttf");
+        font-weight: 600;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-Medium.ttf");
+        font-weight: 500;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: "Montserrat";
+        src: url("/fonts/Montserrat/Montserrat-Regular.ttf");
+        font-weight: 400;
+        font-display: swap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <img
+            src="/img/oracle_numeris_logo.png"
+            alt="Oracle Logo"
+            class="img-fluid d-block d-lg-none float-logo"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/home#producto">Producto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/home#planes">Planes</a>
+              </li>
+              <li class="nav-item brand-item">
+                <a class="nav-link" href="/home"
+                  ><img src="/img/oracle_numeris_logo.png" alt="Oracle"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/home#faqs">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/home#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="header-collapsed-mobile">
+      <div class="brand-logo"></div>
+      <div class="sections">
+        <a href="#producto" class="link">Producto</a>
+        <a href="#planes" class="link">Planes</a>
+        <a href="#testimonios" class="link">Usuarios</a>
+        <a href="#contacto" class="link">Contacto</a>
+      </div>
+      <div class="footer">
+        <div class="links">
+          <a href="https://www.instagram.com/oracle.numeris/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://t.me/oraclenumeriss" target="_blank"></a>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
+              alt="telegram logo"
+              class="img-fluid"
+          /></a>
+        </div>
+        <div class="text-center">
+          <p class="rights">
+            Todos los derechos reservados @ <b>Oracle Numeris</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="/vendor/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="/css/frontend/home.css?id=1b64abdadb82b5ced6d7690a5d1cda6e"
+    />
+    <link rel="stylesheet" href="/vendor/aos/aos.css" />
+
+    <section class="intro">
+      <img src="/img/earth_oracle.png" alt="" class="back-image" />
+      <div class="container">
+        <h1>
+          Todo lo que necesitas en <br />
+          un solo indicador
+        </h1>
+        <div class="img-wrapper">
+          <div
+            style="padding: 56.25% 0 0 0; position: relative"
+            class="main-img"
+          >
+            <iframe
+              src="https://player.vimeo.com/video/858781631?speed=0&color=E8BD24&muted=1&autoplay=1&pip=0&loop=1&quality=undefined&app_id=58479"
+              frameborder="0"
+              autoplay
+              muted
+              allow="autoplay; fullscreen; picture-in-picture"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              "
+              title="Oracle Numeris"
+            ></iframe>
+          </div>
+          <img
+            src="/img/sell-sign.png"
+            alt="sell-sign"
+            class="sell-sign img-fluid"
+          />
+          <img
+            src="/img/buy-sign-izq.png"
+            alt="buy-sign"
+            class="buy-sign img-fluid"
+          />
+          <img src="/img/eth.png" alt="eth" class="eth-1 floating img-fluid" />
+          <img src="/img/eth.png" alt="eth" class="eth-2 floating img-fluid" />
+        </div>
+        <a href="#planes" class="btn btn-oracle">Lo quiero ya</a>
+      </div>
+      <img src="/img/red-shadow.svg" alt="" class="bg-shadow img-fluid" />
+      <img
+        src="/img/green-shadow-left.svg"
+        alt=""
+        class="bg-shadow-2 img-fluid"
+      />
+    </section>
+
+    <div class="container tv-wrapper mt-5 mb-3">
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script
+          type="text/javascript"
+          src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+          async
+        >
+                    {
+            "symbols": [
+              {
+                "proName": "FOREXCOM:SPXUSD",
+                "title": "S&P 500 Index"
+              },
+              {
+                "proName": "NASDAQ:NDX",
+                "title": "Nasdaq"
+              },
+              {
+                "proName": "BITSTAMP:BTCUSD",
+                "title": "Bitcoin"
+              },
+              {
+                "proName": "BITSTAMP:ETHUSD",
+                "title": "Ethereum"
+              }
+            ],
+            "showSymbolLogo": true,
+            "isTransparent": true,
+            "displayMode": "adaptive",
+            "colorTheme": "dark",
+            "locale": "es"
+          }
+        </script>
+      </div>
+    </div>
+
+    <p class="text-white text-center mb-5">
+      Visita el
+      <a
+        href="https://es.tradingview.com/economic-calendar/"
+        target="_blank"
+        style="color: #e8bd24"
+        >Calendario económico</a
+      >
+      de los mercados financieros.
+    </p>
+
+    <style>
+      .tv-wrapper {
+        position: relative;
+      }
+
+      .tv-wrapper::before {
+        content: "";
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          rgba(232, 189, 36, 0) 10%,
+          #e8bd24 50%,
+          rgba(232, 189, 36, 0) 90%
+        );
+        position: absolute;
+        bottom: -1px;
+        width: 100%;
+        z-index: 1;
+      }
+
+      .tv-wrapper::after {
+        content: "";
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          rgba(232, 189, 36, 0) 10%,
+          #e8bd24 50%,
+          rgba(232, 189, 36, 0) 90%
+        );
+        position: absolute;
+        top: -1px;
+        width: 100%;
+        z-index: 1;
+      }
+    </style>
+    <section class="info" id="producto">
+      <img src="/img/elipses1.svg" alt="" class="elipse img-fluid" />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 position-relative">
+            <small
+              class="pre-title"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+              >Oracle Numeris 2.0</small
+            >
+            <h2
+              class="title"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              12 indicadores en 1
+            </h2>
+            <p
+              class="desc"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              Maximiza tu análisis técnico y estrategias de trading con las
+              señales de compra-venta, soportes y resistencias, perfil de
+              volumen dinámico, 3 medias móviles, Fibonacci automático, niveles
+              de take profit configurables, ADX, Bollinger Bandas y más. Podrás
+              activar o desactivar y configurar cada una de estas herramientas.
+              <br /><br />
+              <span>
+                Configura las alertas con <br />
+                las Señales de Compra <br />
+                y Venta en todas las <br />
+                temporalidades y <br />
+                activos.
+              </span>
+            </p>
+            <img
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+              src="/img/coins_bars.png"
+              alt="coins"
+              class="coins img-fluid"
+            />
+          </div>
+          <div
+            class="col-lg-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div class="img-wrapper">
+              <img
+                src="/img/cellphone_animation.gif"
+                alt="cellphone"
+                class="img-fluid cellphone d-block m-auto"
+              />
+              <img
+                src="/img/eth2.png"
+                alt="eth"
+                class="eth-1 floating img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="zoom" id="indicadores">
+      <img src="/img/red-shadow.svg" alt="" class="bg-shadow img-fluid" />
+      <div class="container-fluid">
+        <h2
+          class="main-title"
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+        >
+          Elev&aacute; tus trades al siguiente nivel <br />
+          con las siguientes herramientas
+        </h2>
+        <div
+          class="swiper zoomSwiper"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/ADX.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">SEÑALES DE ADX</h3>
+              <p class="desc">
+                Nos indica que la tendencia del activo es fuerte. Cada vez que
+                aparezca un punto en el gráfico significa que aumenta la
+                posibilidad de que se genere una tendencia genuina.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Barras_coloreadas.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">VELAS DE TENDENCIA</h3>
+              <p class="desc">
+                Nos indica los posibles cambios de tendencia a través de
+                diferentes colores sobre las velas japonesas.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Bollinger.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">BANDAS DE BOLLINGER</h3>
+              <p class="desc">
+                Las bandas miden la volatilidad de un activo e identifica
+                posibles niveles de sobrecompra o sobreventa. Las bandas
+                consisten en un área formada por la banda alta y la banda baja
+                de Bollinger.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Compra_venta_TP_.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">SEÑALES DE COMPRA, VENTA Y TAKE PROFIT</h3>
+              <p class="desc">
+                Nos marca posibles zonas de compra y de venta. El safeguard
+                también nos marca zonas de compra y venta más retrasadas pero
+                con mayor certeza.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Fibonacci.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">FIBONACCI</h3>
+              <p class="desc">
+                Nos marca los niveles más importantes del retroceso de fibonacci
+                de forma automática teniendo en cuenta el máximo y mínimo o
+                viceversa de los períodos que configuremos
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/medias_moviles.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">MEDIAS MÓVILES</h3>
+              <p class="desc">
+                Nos indica el precio promedio de un activo en un período de
+                tiempo determinado. Ayuda a identificar la tendencia general sin
+                los movimientos bruscos del mercado. Dependiendo del valor
+                asignado detectaremos la tendencia tanto de corto, mediano y
+                largo plazo.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/oscilator.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">ORACLE OSCILLATOR (OSCILADOR)</h3>
+              <p class="desc">
+                El Oracle Oscillator utiliza nos indica la dirección de la
+                tendencia, y los colores se vuelven más intensos a medida que
+                esta se fortalece. También proporciona información sobre la
+                fuerza de esta la tendencia y los posibles puntos de reversión.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/pivotes.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">PIVOTES</h3>
+              <p class="desc">
+                Los puntos pivotes nos marcan zonas de soporte y resistencia que
+                se calculan a partir de los precios máximos y mínimos de
+                períodos anteriores.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Soportes_y_resistencias.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">MÓDULOS DE SOPORTE Y RESISTENCIA</h3>
+              <p class="desc">
+                Soportes y resistencias #1 nos marcan niveles del precio
+                importantes de la temporalidad actual, soportes y resistencias
+                #2 nos marcan niveles del precio importantes de la temporalidad
+                anterior.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Tarjeta.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">TARJETA (DE TENDENCIA)</h3>
+              <p class="desc">
+                Esta tarjeta externa te permite ver la tendencia del activo en
+                diferentes temporalidades.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/volume.png"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">ORACLE VOLUME PROFILE</h3>
+              <p class="desc">
+                Nos indica la cantidad de operaciones que se negocian en
+                diferentes precios. Ayuda a identificar zonas con gran interés
+                del activo, lo que puede identificar áreas de soporte y
+                resistencia.
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="/img/indicators/Telegram_OracleNumeris.webp"
+                alt="trading-chart"
+                class="img-fluid chart"
+              />
+              <h3 class="name">TELEGRAM</h3>
+              <p class="desc">
+                Eleva tu experiencia de trading con las alertas de compra/venta
+                en tiempo real de nuestro canal de Telegram. El mismo cuenta con
+                una combinación de +15 activos preconfigurados (cryptos,
+                índices, acciones) en temporalidades H4 y D1.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="plans" id="planes">
+      <img src="/img/green-shadow.svg" alt="" class="bg-shadow img-fluid" />
+      <img
+        src="/img/green-shadow-left.svg"
+        alt=""
+        class="bg-shadow-2 img-fluid"
+      />
+      <div class="container">
+        <img
+          src="/img/buy-sign.png"
+          loading="lazy"
+          alt="buy-sign"
+          class="buy-sign img-fluid"
+        />
+        <img
+          src="/img/coins.png"
+          loading="lazy"
+          alt="coins"
+          class="coins img-fluid"
+        />
+        <h2
+          class="title"
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+        >
+          Conoc&eacute; nuestros planes
+        </h2>
+        <div class="row">
+          <div class="col-lg-3">
+            <div
+              class="plan-card"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+            >
+              <h3 class="plan-name">Versi&oacute;n</h3>
+              <p class="price">Gratis</p>
+              <div class="line"></div>
+              <ul class="benefits-list">
+                <li>
+                  <i class="fa-solid fa-check"></i> Oracle Numeris
+                  <b style="font-weight: bold">LITE version</b>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark" style="color: red"></i> Oracle
+                  Oscilator
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark" style="color: red"></i> Oracle
+                  Volume Profile y todas las herramientas
+                </li>
+              </ul>
+              <a href="/lite" class="btn btn-oracle">Suscribir</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div
+              class="plan-card"
+              data-aos="fade-up"
+              data-aos-delay="150"
+              data-aos-duration="1000"
+            >
+              <h3 class="plan-name">Mensual</h3>
+              <p class="price"><span class="currency">USDT</span>12.00</p>
+              <div class="line"></div>
+              <ul class="benefits-list">
+                <li><i class="fa-solid fa-check"></i> Oracle Numeris</li>
+                <li><i class="fa-solid fa-check"></i> Oracle Oscilator</li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Oracle Volume Profile y
+                  todas las herramientas
+                </li>
+              </ul>
+              <a
+                target="_blank"
+                href="https://t.me/oraclenumeriss&amp;text=Hola!%20Estoy%20interesado%20en%20el%20Plan%20Mensual"
+                class="btn btn-oracle"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div
+              class="plan-card"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              <h3 class="plan-name">Semestral</h3>
+              <p class="price"><span class="currency">USDT</span>65.00</p>
+              <p class="desc">Ahorras 26 usd al año</p>
+              <div class="line"></div>
+              <ul class="benefits-list">
+                <li><i class="fa-solid fa-check"></i> Oracle Numeris</li>
+                <li><i class="fa-solid fa-check"></i> Oracle Oscilator</li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Oracle Volume Profile y
+                  todas las herramientas
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Telegram de Señales
+                  <b style="font-weight: bold">Oracle VIP</b>
+                </li>
+              </ul>
+              <a
+                target="_blank"
+                href="https://t.me/oraclenumeriss&amp;text=Hola!%20Estoy%20interesado%20en%20el%20Plan%20Semestral"
+                class="btn btn-oracle"
+                >Comprar</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div
+              class="plan-card highlated"
+              data-aos="fade-up"
+              data-aos-delay="250"
+              data-aos-duration="1000"
+            >
+              <h3 class="plan-name">Anual</h3>
+              <p class="price"><span class="currency">USDT</span>120.00</p>
+              <p class="desc">Ahorras 36 usd al año</p>
+              <div class="line"></div>
+              <ul class="benefits-list">
+                <li><i class="fa-solid fa-check"></i> Oracle Numeris</li>
+                <li><i class="fa-solid fa-check"></i> Oracle Oscilator</li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Oracle Volume Profile y
+                  todas las herramientas
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> Telegram de Señales
+                  <b style="font-weight: bold">Oracle VIP</b>
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i> 1 Mes de Membresia Bronce en
+                  Metamind para seguir capacitandote
+                </li>
+              </ul>
+              <a
+                target="_blank"
+                href="https://t.me/oraclenumeriss&amp;text=Hola!%20Estoy%20interesado%20en%20el%20Plan%20Anual"
+                class="btn btn-oracle"
+                >Comprar</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mision" style="background-image: url(/img/grid-1.png)">
+      <img src="/img/elipses2.svg" alt="" class="elipse img-fluid" />
+      <img src="/img/red-shadow.svg" alt="" class="bg-shadow img-fluid" />
+      <div class="circle-overlay"></div>
+      <h2
+        class="title"
+        data-aos="fade-up"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+      >
+        Oracles Numeris en números
+      </h2>
+
+      <div
+        class="stats"
+        data-aos="fade-up"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+      >
+        <div class="item">
+          <h5 class="stat">+<span class="counter">6200</span></h5>
+          <p class="info">Suscripciones vendidas</p>
+        </div>
+        <div class="item">
+          <h5 class="stat"><span class="counter2">3</span></h5>
+          <p class="info">Años de trayectoria en el mercado</p>
+        </div>
+        <div class="item">
+          <h5 class="stat"><span class="counter3">92</span>%</h5>
+          <p class="info">Satisfacción de nuestros clientes</p>
+        </div>
+      </div>
+      <img
+        src="/img/bars.png"
+        loading="lazy"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+        alt="Oracle Numeris"
+        class="img-fluid mt-3"
+      />
+    </section>
+
+    <section class="testimonials" id="testimonios">
+      <div class="container">
+        <h2
+          class="title"
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+        >
+          Que dicen nuestros usuarios
+        </h2>
+        <div
+          class="swiper mySwiper"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <img
+                  loading="lazy"
+                  src="/img/testimonials/SinFoto.png"
+                  alt=""
+                  class="photo"
+                />
+                <div class="text-group">
+                  <p class="text">
+                    Mi opinión es muy positiva porque la relación precio-calidad
+                    hace que sea muy rentable y útil. Más que las señales de
+                    compra y de venta, el tema de los soportes y las
+                    resistencias es de lo mejor del indicador, sin mencionar lo
+                    que han ido agregando que está muy bien
+                  </p>
+                  <p class="author">Edgardo</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <img
+                  loading="lazy"
+                  src="/img/testimonials/SinFoto.png"
+                  alt=""
+                  class="photo"
+                />
+                <div class="text-group">
+                  <p class="text">
+                    El Fibonacci automático, las señales de compra y venta y los
+                    niveles de soporte y resistencia, hacen que abrir
+                    operaciones sea mucho mas facil.
+                  </p>
+                  <p class="author">Santiago</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <img
+                  loading="lazy"
+                  src="/img/testimonials/Mauro.png"
+                  alt=""
+                  class="photo"
+                />
+                <div class="text-group">
+                  <p class="text">
+                    Lo uso en para hacer longs en mi estrategia de trading.
+                    Obviamente no me guío solo por el, pero si es de mucha
+                    importancia y tiene buena precisión en velas cerradas.
+                  </p>
+                  <p class="author">Mauro</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <img
+                  loading="lazy"
+                  src="/img/testimonials/Emiliano.png"
+                  alt=""
+                  class="photo"
+                />
+                <div class="text-group">
+                  <p class="text">
+                    Utilizo mucho las alertas, sobre todo en h1 y h4. Son el
+                    gatillo para disparar la operación cuando el setup se está
+                    dando. Las medias móviles y el volumen profile son muy
+                    útiles también.
+                  </p>
+                  <p class="author">Emiliano</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial">
+                <img
+                  loading="lazy"
+                  src="/img/testimonials/Candela.png"
+                  alt=""
+                  class="photo"
+                />
+                <div class="text-group">
+                  <p class="text">
+                    En mi experiencia el indicador se paga solo. La nueva
+                    versión con volumen lateral y el indicador de momentum no me
+                    la esperaba, siempre mejorando. Lo recomiendo.
+                  </p>
+                  <p class="author">Candela</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="faqs"
+      id="faqs"
+      data-aos="fade-up"
+      data-aos-delay="0"
+      data-aos-duration="1000"
+    >
+      <div class="container">
+        <div class="card-faqs">
+          <h2 class="title">Preguntas frecuentes</h2>
+          <div class="accordion-wrapper">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    ¿Cómo lo configuro y lo comienzo a usar?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    La instalación es súper sencilla, con el nombre de usuario
+                    de TradingView nosotros habilitamos el indicador a tu
+                    cuenta. Una vez en la plataforma de TradingView, se
+                    selecciona desde el apartado de indicadores/scripts por
+                    invitación. Además brindamos una guía básica para utilizar
+                    cada funcionalidad del indicador. No es necesario que tengas
+                    una cuenta paga de TradingView.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    ¿Si no tengo experiencia en trading puedo contratar el
+                    servicio?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Si, se puede, pero no lo recomendamos. Lo ideal es poder
+                    utilizarlo como complemento a una estrategia de trading ya
+                    preestablecida. Nuestro plan Anual incluye 1 Mes de
+                    Membresia Bronce de Metamind donde vas a poder tomar todos
+                    los cursos de Trading necesarios para empezar a operar.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    ¿Puedo configurar alertas sobre las señales de COMPRA y
+                    VENTA?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Si, programando una alerta desde Tradingview, para que tele
+                    notifique tanto en la PC, en la app del celular, o por mail.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    ¿Cuántas variables mide el Oracle para emitir las señales de
+                    COMPRA y VENTA?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    El Oracle está programado con un algoritmo que combina más
+                    de 10 indicadores en tiempo real. Analiza valores de las EMA
+                    de 20, 55 y 200 períodos con el ADX, Squeeze, Volúmenes,
+                    Clústeres de Fibonacci, divergencias entre estos indicadores
+                    y algunas figuras chartistas.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    ¿Cuáles son las formas de pago?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Actualmente sólo aceptamos USDT vía red TRC20. Contacta con
+                    nuestros operadores para saber todos los detalles de cómo
+                    realizar el pago.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trusted-us">
+      <img src="/img/red-shadow.svg" alt="" class="bg-shadow img-fluid" />
+      <img src="/img/grid-1.png" alt="bg" class="bg-texture" />
+      <h2
+        class="title"
+        data-aos="fade-up"
+        data-aos-delay="0"
+        data-aos-duration="1000"
+      >
+        Confían en nosotros
+      </h2>
+      <div class="container">
+        <div
+          class="logos"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <img
+            loading="lazy"
+            src="/img/logos/ON_Web_BingX.png"
+            alt="ON_Web_BingX"
+            class="img-fluid"
+          />
+          <img
+            loading="lazy"
+            src="/img/logos/ON_Web_ByBit.png"
+            alt="ON_Web_ByBit"
+            class="img-fluid"
+          />
+          <img
+            loading="lazy"
+            src="/img/logos/ON_Web_Criptonorber.png"
+            alt="ON_Web_Criptonorber"
+            class="img-fluid"
+          />
+          <img
+            loading="lazy"
+            src="/img/logos/ON_Web_JovenInversor.png"
+            alt="ON_Web_JovenInversor"
+            class="img-fluid"
+          />
+          <img
+            loading="lazy"
+            src="/img/logos/ON_Web_TradingView.png"
+            alt="ON_Web_TradingView"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <img
+        src="/img/green-shadow-left.svg"
+        alt=""
+        class="bg-shadow-2 img-fluid"
+      />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h2
+              class="title"
+              data-aos="fade-up"
+              data-aos-delay="0"
+              data-aos-duration="1000"
+            >
+              ¡Hablemos!
+            </h2>
+            <p
+              class="text"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              Contactate con nosotros para gestionar tu suscripción y recibir
+              asesoramiento personalizado.
+            </p>
+            <div data-aos-delay="0" data-aos-duration="100">
+              <a
+                href="https://t.me/oraclenumeriss"
+                target="_blank"
+                class="btn btn-wpp"
+                >Contactanos por Telegram <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
+              alt="telegram logo"
+              class="img-fluid"
+          /></a>
+            </div>
+            <img
+              loading="lazy"
+              src="/img/phone-oracle.png"
+              alt="Oracle Numeris Telefono"
+              class="img-fluid phone"
+            />
+          </div>
+          <div
+            class="col-lg-5 offset-lg-2"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            <div class="form-wrapper">
+              <form
+                wire:id="0V0mzhWfS3Ersu064jGY"
+                wire:initial-data='{"fingerprint":{"id":"0V0mzhWfS3Ersu064jGY","name":"contact-form","locale":"en","path":"home","method":"GET","v":"acj"},"effects":{"listeners":[]},"serverMemo":{"children":[],"errors":[],"htmlHash":"b469bdb8","data":{"name":null,"email":null,"body":null,"success":null},"dataMeta":[],"checksum":"11240bef6b592347e244ba21f1aa49c1266b60e49f0f921881e0a055a007ce3e"}}'
+                wire:submit.prevent="submit"
+              >
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    wire:model="name"
+                    class="form-control oracle-input"
+                    id="nameInput"
+                    placeholder="%nbsp;"
+                  />
+                  <label for="nameInput">Nombre*</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input
+                    wire:model="email"
+                    type="email"
+                    class="form-control oracle-input"
+                    id="emailInput"
+                    placeholder="%nbsp;"
+                  />
+                  <label for="emailInput">E-mail*</label>
+                </div>
+
+                <div class="form-floating">
+                  <textarea
+                    wire:model="body"
+                    class="form-control oracle-input"
+                    placeholder="%nbsp;"
+                    id="floatingTextarea2"
+                    style="height: 200px"
+                  ></textarea>
+                  <label for="floatingTextarea2">Comentarios*</label>
+                </div>
+
+                <button type="submit" class="btn btn-oracle mt-4">
+                  Enviar mensaje
+                </button>
+              </form>
+
+              <!-- Livewire Component wire-end:0V0mzhWfS3Ersu064jGY -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="/vendor/aos/aos.js"></script>
+    <script src="/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/vendor/jquery.countup.min.js"></script>
+    <script src="/vendor/jquery.waypoints.min.js"></script>
+    <script src="/vendor/player.vimeo.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        autoHeight: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+
+        breakpoints: {
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".zoomSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoHeight: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        breakpoints: {
+          // when window width is >= 992px
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 1,
+          },
+        },
+      });
+
+      $(".counter").countUp();
+      $(".counter2").countUp();
+      $(".counter3").countUp();
+    </script>
+
+    <script>
+      AOS.init({
+        once: true,
+        mirror: true,
+        easing: "ease-out-back",
+      });
+    </script>
+
+    <footer>
+      <div class="container">
+        <div class="upper">
+          <div class="row">
+            <div class="col-lg-10">
+              <h5 class="brand">Oracle Numeris</h5>
+              <p class="desc">
+                Maximiza tu análisis técnico y estrategias de trading con las
+                señales de compra y venta y una combinación de más de 12
+                indicadores para usar en Trading View.
+              </p>
+              <div class="links">
+                <a
+                  href="https://www.instagram.com/oracle.numeris/"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+                <a href="https://t.me/oraclenumeriss" target="_blank">
+                    <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
+              alt="telegram logo"
+              class="img-fluid"/></a>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <a href="/home#indicadores" class="link">Indicadores</a>
+              <a href="/home#planes" class="link">Planes</a>
+              <a href="/home#testimonios" class="link">Testimonios</a>
+              <a href="/home#faqs" class="link">Preguntas Frecuentes</a>
+              <a href="https://tradingview.com/" target="_blank" class="link"
+                >Gráficos Mercados</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <p class="rights">
+            Todos los derechos reservados @ <b>Oracle Numeris</b>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollTopBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <a target="_blank" href="https://t.me/oraclenumeriss" class="wpp-contact">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg"
+        alt="telegram logo"
+        class="img-fluid"
+      />
+    </a>
+    <script src="/js/frontend/general.js?id=f2831a884bec8aaeeea70bba82e30cfc"></script>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="/vendor/popper.min.js" crossorigin="anonymous"></script>
+    <script src="/vendor/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script
+      src="/vendor/jquery.easing.compatibility.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="/livewire/livewire.js?id=90730a3b0e7144480175"
+      data-turbo-eval="false"
+      data-turbolinks-eval="false"
+    ></script>
+    <script data-turbo-eval="false" data-turbolinks-eval="false">
+      window.livewire = new Livewire();
+      window.Livewire = window.livewire;
+      window.livewire_app_url = "";
+      window.livewire_token = "yZz8pO051eLqcPa1yG6I8Z8oDvX0ZWMw1RsSUsAU";
+      window.deferLoadingAlpine = function (callback) {
+        window.addEventListener("livewire:load", function () {
+          callback();
+        });
+      };
+      let started = false;
+      window.addEventListener("alpine:initializing", function () {
+        if (!started) {
+          window.livewire.start();
+          started = true;
+        }
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        if (!started) {
+          window.livewire.start();
+          started = true;
+        }
+      });
+    </script>
+  </body>
+</html>
