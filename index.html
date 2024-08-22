@@ -1214,10 +1214,22 @@
                   <label for="floatingTextarea2">Comentarios*</label>
                 </div>
 
-                <button type="submit" class="btn btn-oracle mt-4">
+                <button
+                  type="submit"
+                  id="submitButton"
+                  class="btn btn-oracle mt-4"
+                >
                   Enviar mensaje
                 </button>
+                <div
+                  id="loadingIndicator"
+                  class="btn btn-oracle mt-4"
+                  style="display: none"
+                >
+                  Enviando mensaje...
+                </div>
               </form>
+
               <script>
                 document
                   .getElementById("email-form")
@@ -1228,18 +1240,27 @@
                     const email = document.getElementById("emailInput").value;
                     const message =
                       document.getElementById("floatingTextarea2").value;
+                    const submitButton =
+                      document.getElementById("submitButton");
+                    const loadingIndicator =
+                      document.getElementById("loadingIndicator");
 
-                    fetch(
-                      "https://education-server-5926.onrender.com/api/send-email",
-                      {
-                        method: "POST",
-                        headers: {
-                          "Content-Type": "application/x-www-form-urlencoded",
-                        },
-                        body: new URLSearchParams({ name, email, message }),
-                      }
-                    )
+                    // Disable submit button and show loading indicator
+                    submitButton.style.display = "none";
+                    loadingIndicator.style.display = "block";
+
+                    fetch("http://localhost:4000/api/send-email", {
+                      method: "POST",
+                      headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                      },
+                      body: new URLSearchParams({ name, email, message }),
+                    })
                       .then((response) => {
+                        // Enable submit button and hide loading indicator
+                        submitButton.style.display = "block";
+                        loadingIndicator.style.display = "none";
+
                         if (response.ok) {
                           alert("Email sent successfully");
                         } else {
@@ -1247,6 +1268,10 @@
                         }
                       })
                       .catch((error) => {
+                        // Enable submit button and hide loading indicator
+                        submitButton.disabled = false;
+                        loadingIndicator.style.display = "none";
+
                         console.error("Error:", error);
                         alert("An error occurred while sending the email");
                       });
