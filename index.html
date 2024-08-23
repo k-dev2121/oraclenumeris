@@ -637,7 +637,7 @@
               data-aos-duration="1000"
             >
               <h3 class="plan-name">Versi&oacute;n</h3>
-              <p class="price"><span class="currency">USDT</span>320.00</p>
+              <p class="price">Gratis</p>
               <div class="line"></div>
               <ul class="benefits-list">
                 <li>
@@ -666,7 +666,7 @@
               data-aos-duration="1000"
             >
               <h3 class="plan-name">Mensual</h3>
-              <p class="price"><span class="currency">USDT</span>512.00</p>
+              <p class="price"><span class="currency">USDT</span>320.00</p>
               <div class="line"></div>
               <ul class="benefits-list">
                 <li><i class="fa-solid fa-check"></i> Oracle Numeris</li>
@@ -692,8 +692,8 @@
               data-aos-duration="1000"
             >
               <h3 class="plan-name">Semestral</h3>
-              <p class="price"><span class="currency">USDT</span>650.00</p>
-              <p class="desc">Ahorras 26 usd al año</p>
+              <p class="price"><span class="currency">USDT</span>512.00</p>
+              <p class="desc">Ahorras 1408 usd al año</p>
               <div class="line"></div>
               <ul class="benefits-list">
                 <li><i class="fa-solid fa-check"></i> Oracle Numeris</li>
@@ -723,8 +723,8 @@
               data-aos-duration="1000"
             >
               <h3 class="plan-name">Anual</h3>
-              <p class="price"><span class="currency">USDT</span>1200.00</p>
-              <p class="desc">Ahorras 36 usd al año</p>
+              <p class="price"><span class="currency">USDT</span>650.00</p>
+              <p class="desc">Ahorras 3520 usd al año</p>
               <div class="line"></div>
               <ul class="benefits-list">
                 <li><i class="fa-solid fa-check"></i> Oracle Numeris</li>
@@ -1236,10 +1236,10 @@
                   .addEventListener("submit", (event) => {
                     event.preventDefault();
 
-                    const name = document.getElementById("nameInput").value;
-                    const email = document.getElementById("emailInput").value;
-                    const message =
-                      document.getElementById("floatingTextarea2").value;
+                    const nameInput = document.getElementById("nameInput");
+                    const emailInput = document.getElementById("emailInput");
+                    const messageInput =
+                      document.getElementById("floatingTextarea2");
                     const submitButton =
                       document.getElementById("submitButton");
                     const loadingIndicator =
@@ -1256,7 +1256,11 @@
                         headers: {
                           "Content-Type": "application/x-www-form-urlencoded",
                         },
-                        body: new URLSearchParams({ name, email, message }),
+                        body: new URLSearchParams({
+                          name: nameInput.value,
+                          email: emailInput.value,
+                          message: messageInput.value,
+                        }),
                       }
                     )
                       .then((response) => {
@@ -1265,6 +1269,9 @@
                         loadingIndicator.style.display = "none";
 
                         if (response.ok) {
+                          nameInput.value = "";
+                          emailInput.value = "";
+                          messageInput.value = "";
                           alert("Email sent successfully");
                         } else {
                           alert("Error sending email");
